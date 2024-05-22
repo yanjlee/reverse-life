@@ -17,7 +17,7 @@ To use the resources of this project, you need to set up your development enviro
 
 ```bash
 # Clone the repository
-git clone https://github.com/yanjlee/reverse_life.git
+git clone https://github.com/yanjlee/reverse-life.git
 
 # Enter the project directory
 cd your-repository-name
