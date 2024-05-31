@@ -11,9 +11,9 @@ shutil.rmtree('dist', ignore_errors=True)
 
 setuptools.setup(
     name="reverse-life",
-    version="1.2.4",
+    version="1.2.5",
     author="yanjlee",
-    author_email="yanjlee@163.com", 
+    author_email="yanjlee@163.com",
     description="This project is dedicated to sharing and teaching the fundamentals and techniques of web reverse engineering. Web reverse engineering involves analyzing how websites and web applications work, and cracking or modifying existing code to achieve specific objectives. This project includes a series of tutorials, practical tools, and case studies aimed at helping developers, security researchers, and enthusiasts understand how to effectively reverse engineer web technologies.",  # 模块简介
     install_requires=[
         'requests',
@@ -49,7 +49,7 @@ setuptools.setup(
         'Jinja2',
         'langchain',
         'langchain-community',
-        ''suiutils-py',
+        'suiutils-py',
     ],
     long_description=open(r'readme.md', encoding='utf-8').read(),  # 读取readme自述文件
     long_description_content_type="text/markdown",
