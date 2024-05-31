@@ -49,7 +49,7 @@ setuptools.setup(
         'Jinja2',
         'langchain',
         'langchain-community',
-        'langchain-core'
+        ''suiutils-py',
     ],
     long_description=open(r'readme.md', encoding='utf-8').read(),  # 读取readme自述文件
     long_description_content_type="text/markdown",
