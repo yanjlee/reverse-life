@@ -11,7 +11,7 @@ shutil.rmtree('dist', ignore_errors=True)
 
 setuptools.setup(
     name="reverse-life",
-    version="1.2.2",
+    version="1.2.4",
     author="yanjlee",
     author_email="yanjlee@163.com", 
     description="This project is dedicated to sharing and teaching the fundamentals and techniques of web reverse engineering. Web reverse engineering involves analyzing how websites and web applications work, and cracking or modifying existing code to achieve specific objectives. This project includes a series of tutorials, practical tools, and case studies aimed at helping developers, security researchers, and enthusiasts understand how to effectively reverse engineer web technologies.",  # 模块简介
